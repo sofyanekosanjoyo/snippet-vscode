@@ -12,8 +12,11 @@ git log --name-status
 sekian banyak parameter yang bisa kamu gunakan
 git log --help
 
-untuk membuat repositori git baru.
+membuat repositori git baru.
 git init
+
+membatalkan repositori yang ada
+rm -fr .git
 
 riwayat repositori menggunakan
 git log
@@ -52,3 +55,4 @@ git config format.pretty oneline
 
 menggunakan penambahan interaktif
 git add -i
+
